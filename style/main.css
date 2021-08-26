@@ -10,15 +10,16 @@
   text-decoration: none;
 }
 
-.container {
+header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+/* Elementos base */
 body {
   background: var(--preto);
   font-family: "Times New Roman", Times, serif;
+  color: #fff;
 }
 
 .logo {
@@ -35,4 +36,49 @@ body {
 
 .nav a:hover {
   color: #fff;
+}
+
+/* Filme principal */
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/img/peaky-blinders.jpg");
+  background-size: cover;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.botao:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.botao i {
+  margin-right: 5px;
 }
