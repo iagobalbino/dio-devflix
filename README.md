@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Clone da interface da Netflix, projeto do bootcamp **MRV Front End SPA Developer da Digital Innovation One**. Neste projeto tive a aportunidade de relembrar alguns conceitos do **HTML5** e do **CSS3**, como tags semânticas, responsividade com media queries e o conceito de utilizar variáveis no CSS, que até então eu pensava que era somente possível com a utilização de frameworks.
+Clone da interface da Netflix, projeto do bootcamp **MRV Front End SPA Developer da Digital Innovation One**. Neste projeto tive a oportunidade de relembrar alguns conceitos do **HTML5** e do **CSS3**, como tags semânticas, responsividade com media queries e o conceito de utilizar variáveis no CSS, que até então eu pensava que era somente possível com a utilização de frameworks.
 
 ![devflix](printscreen/gif-home.gif)
 
